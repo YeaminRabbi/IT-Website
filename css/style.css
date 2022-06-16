@@ -1,5 +1,13 @@
 #particles-js {
     /* background: black; */
     /* background-size: cover; */
-    /* height: 100vh; */
+    height: 120vh;
+}
+.front{
+
+    font: 'BLANKA';
+}
+.Back{
+
+    font: 'BLANKA';
 }
