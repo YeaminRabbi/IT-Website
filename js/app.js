@@ -2,6 +2,7 @@
 /* How to use? : Check the GitHub README
 /* ----------------------------------------------- */
 
+const newLocal = "particles-js";
 /* To load a config file (particles.json) you need to host this demo (MAMP/WAMP/local)... */
 /*
 particlesJS.load('particles-js', 'particles.json', function() {
@@ -10,10 +11,14 @@ particlesJS.load('particles-js', 'particles.json', function() {
 */
 
 /* Otherwise just put the config content (json): */
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'assets/particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
 
 
-#particlesJS("particles-js",
- {
+particlesJS('particles-js',
+{
   "particles": {
     "number": {
       "value": 120,

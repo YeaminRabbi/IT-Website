@@ -3808,6 +3808,16 @@ input.main-search-input:-ms-input-placeholder {
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 6px; }
 
+    /* .proces-bg1{
+      margin: 0;
+      padding: 0;
+      height: 100vh;
+    }
+    #particles-js{
+
+      height: 100%;
+    } */
+
 .process-box .icon {
   background: #ffffff;
   width: 160px;
