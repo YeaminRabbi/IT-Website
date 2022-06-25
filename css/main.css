@@ -2579,7 +2579,7 @@ input.main-search-input:-ms-input-placeholder {
       padding-left: 40px; } }
 
 .slider-bg-three {
-  background: url(../img/slider/hero-bg-3a.jpg) no-repeat;
+  background: url(../img/slider/startup-concept-glowing-lamp-chalkboard-wall-background-business-sketch-d-rendering-100002464.jpg) repeat;
   clip-path: polygon(100% 0, 100% 92%, 50% 100%, 0 92%, 0 0);
   background-size: cover;
   background-position: center;
@@ -2591,9 +2591,9 @@ input.main-search-input:-ms-input-placeholder {
   z-index: 1; }
   .slider-bg-three::before {
     content: "";
-    background-image: -moz-linear-gradient(0deg, #02218f 0%, #0e72e3 100%);
+    /* background-image: -moz-linear-gradient(0deg, #02218f 0%, #0e72e3 100%);
     background-image: -webkit-linear-gradient(0deg, #02218f 0%, #0e72e3 100%);
-    background-image: -ms-linear-gradient(0deg, #02218f 0%, #0e72e3 100%);
+    background-image: -ms-linear-gradient(0deg, #02218f 0%, #0e72e3 100%); */
     opacity: 0.922;
     position: absolute;
     left: 0px;
